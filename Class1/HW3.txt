@@ -1,0 +1,14 @@
+1. 
+H0: The mean time to rent a car is 60 seconds, H1: the time mean time > 60 seconds
+Z = (65-60)/(30/6) = 1
+The Z value of one-tailed 5% confidence interval equals to 1.64. Since 1<1.645, we cannot reject the null hypothesis and there is no enough evidence to contradict the company's claim 
+
+The mean time corresponds to 5% CI is 60+1.645*5 = 68.225
+If we assume the correct mean time is 65 seconds, then the type two error:
+(68.225 - 65)/5 = 0.645, the corresponding cumulative P value is 0.74
+So, the power is 1-0.74 = 0.26
+
+2.
+85% power means 15% type 2 error, which euqals -1.04 Z value
+(60-67)/(30/sqrt(n)) = -1.04
+n = 20

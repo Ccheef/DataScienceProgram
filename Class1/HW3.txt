@@ -9,6 +9,10 @@ If we assume the correct mean time is 65 seconds, then the type two error:
 So, the power is 1-0.74 = 0.26
 
 2.
-85% power means 15% type 2 error, which euqals -1.04 Z value
-(60-67)/(30/sqrt(n)) = -1.04
-n = 20
+Then this choice will be right-sided with design sample size calculation(still assuming 0.05 alpha)
+Power = Pr(Z>Z0.95  -  sqrt(n)*(67-60)/30)) = 0.85 
+
+Pr(Z>1.645 -  sqrt(n)*(67-60)/30)) = 0.85
+
+1.645 -  sqrt(n)*(7/30)) = -1.035
+N= sq((1.645+1.035) * 30/7) = 132
